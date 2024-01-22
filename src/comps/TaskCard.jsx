@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import"../App.css"
+import styles from "./TaskCard.module.css"
 
 
 function TaskCard({task,handleDelete}) {

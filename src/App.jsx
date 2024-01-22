@@ -18,7 +18,7 @@ function App() {
     <Header/>
     <div className='App'>
       <h2>Todo App</h2>
-      <button onClick={()=>{setShow(!show)}} className='trigger'>Toggle</button>
+      <button onClick={()=>{setShow(!show)}} className='trigger'>{show? "Hide":"Show"}</button>
       <TaskList show={show}/>
     </div>
     <Footer/>
