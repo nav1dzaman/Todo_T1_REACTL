@@ -44,3 +44,12 @@
     padding: 7px 10px;
     margin: 10px;
 }
+
+.bollu{
+    border: 0px;
+    border-radius: 5px;
+    background-color: #be3434;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    cursor: pointer;
+}

@@ -4,12 +4,8 @@ import"../App.css"
 import TaskCard from './TaskCard'
 import BoxCard from './BoxCard'
 
-function TaskList({show}) {
+function TaskList({show,tasks,setTasks}) {
    
-  const[tasks,setTasks]=useState([
-    {id:1,task:"Doing Home work",progress:true},
-    {id:2,task:"Doing study",progress:false},
-    {id:3,task:"Doing houseworl work",progress:false}])
 
    function handleDelete(id){
       console.log(id)
